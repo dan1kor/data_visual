@@ -27,14 +27,14 @@ data_analysis_visual/
 │ └── ex04_ab-test.ipynb # Complete A/B test implementation  
 │  
 └── visual/ # Data Visualization  
-  ├── data  
-  │ ├── ab-test.csv  
-  │  └── checking-logs.sqlite  
-  ├── ex01_first_select.ipynb  
-  ├── ex02_subquery.ipynb  
-  ├── ex03_joins.ipynb 
-  ├── ex04_aggs.ipynb  
-  └── ex05_ab-test.ipynb # Complete A/B test implementation  
+    ├── data  
+    │   ├── ab-test.csv  
+    │   └── checking-logs.sqlite  
+    ├── ex01_first_select.ipynb  
+    ├── ex02_subquery.ipynb  
+    ├── ex03_joins.ipynb 
+    ├── ex04_aggs.ipynb  
+    └── ex05_ab-test.ipynb # Complete A/B test implementation  
 
 ## 🛠️ Tech Stack
 
