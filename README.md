@@ -15,26 +15,26 @@
 *   **Jupyter-Based**: All exercises are in interactive notebooks for easy exploration and learning.
 
 ## 📁 Project Structure
-data_analysis_visual/  
-│  
-├── sql_pandas/ # Database & Data Wrangling  
-│ ├── data  
-│ │  └── checking-logs.sqlite  
-│ ├── ex00_first_select.ipynb  
-│ ├── ex01_subquery.ipynb  
-│ ├── ex02_joins.ipynb 
-│ ├── ex03_aggs.ipynb  
-│ └── ex04_ab-test.ipynb # Complete A/B test implementation  
-│  
-└── visual/ # Data Visualization  
-    ├── data  
-    │   ├── ab-test.csv  
-    │   └── checking-logs.sqlite  
-    ├── ex01_first_select.ipynb  
-    ├── ex02_subquery.ipynb  
-    ├── ex03_joins.ipynb 
-    ├── ex04_aggs.ipynb  
-    └── ex05_ab-test.ipynb # Complete A/B test implementation  
+        data_analysis_visual/  
+        │  
+        ├── sql_pandas/ # Database & Data Wrangling  
+        │ ├── data  
+        │ │  └── checking-logs.sqlite  
+        │ ├── ex00_first_select.ipynb  
+        │ ├── ex01_subquery.ipynb  
+        │ ├── ex02_joins.ipynb 
+        │ ├── ex03_aggs.ipynb  
+        │ └── ex04_ab-test.ipynb # Complete A/B test implementation  
+        │  
+        └── visual/ # Data Visualization  
+        ├── data  
+        │   ├── ab-test.csv  
+        │   └── checking-logs.sqlite  
+        ├── ex01_first_select.ipynb  
+        ├── ex02_subquery.ipynb  
+        ├── ex03_joins.ipynb 
+        ├── ex04_aggs.ipynb  
+        └── ex05_ab-test.ipynb # Complete A/B test implementation  
 
 ## 🛠️ Tech Stack
 
