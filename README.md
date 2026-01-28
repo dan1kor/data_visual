@@ -28,7 +28,7 @@ data_analysis_visual/
 │  
 └── visual/ # Data Visualization  
   ├── data  
-  │ ├── ab-test.csv
+  │ ├── ab-test.csv  
   │  └── checking-logs.sqlite  
   ├── ex01_first_select.ipynb  
   ├── ex02_subquery.ipynb  
