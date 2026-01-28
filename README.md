@@ -1,14 +1,57 @@
-# Data Analysis and Visual  
-  
+# Data Analysis & Visualization Toolkit
 
-## О проекте  
-Проект представляет собой сборник упражений по работе с БД, включает в себя запросы к БД, предпроцессинг и визуализацию данных.  
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Структура проекта: data_visual/sql_pandas/  
-                              /visual  
+Сборник практических упражнений для улучшения навыков работы с запросами к БД, обработке и визуализации с помощью Python.
 
-В каждой папке можно найти папки с jupyter-блокнотами, в которых выполнены упражения.  
+## ✨ Особенности
 
-В sql_pandas/ используются библиотеки sqlite3 для написания запросов к БД, pandas для первичной обработки и агрегации данных. В sql_pandas/ex04 можно найти блокнот с реализованным А/B-тестом гипотезы.  
+*   **Практика SQL**: Запросы к БД через `sqlite3` для извлечения данных.
+*   **Работа с Pandas**: Comprehensive data cleaning, transformation, and aggregation techniques.
+*   **A/B Тестирование**: A complete example of hypothesis testing implementation (`ex04`).
+*   **Визуализация**: Creation of insightful plots with `matplotlib` and `seaborn`.
+*   **Jupyter-Based**: All exercises are in interactive notebooks for easy exploration and learning.
 
-В visual содержатся блокноты, включающие в себя работу с графиками и их интерперетациями. Используются библиотеки sqlite3, pandas, pandas.plotting, matplotlib, seaborn
+## 📁 Project Structure
+data_analysis_visual/
+│
+├── sql_pandas/ # Database & Data Wrangling
+│ ├── ex01_basic_queries.ipynb
+│ ├── ex02_data_cleaning.ipynb
+│ ├── ex03_aggregations.ipynb
+│ └── ex04_ab_testing.ipynb # Complete A/B test implementation
+│
+└── visual/ # Data Visualization
+├── ex01_basic_plots.ipynb
+├── ex02_seaborn_plots.ipynb
+└── ex03_advanced_viz.ipynb
+
+## 🛠️ Tech Stack
+
+*   **Languages**: Python
+*   **Database**: SQLite (`sqlite3`)
+*   **Data Processing**: Pandas, NumPy
+*   **Visualization**: Matplotlib, Seaborn, Pandas Plotting
+*   **Environment**: Jupyter Notebook
+
+
+📘 Exercise Overview
+sql_pandas/
+ex01: Basic SQL queries (SELECT, WHERE, JOIN).
+
+ex02: Data preprocessing with Pandas (handling missing values, filtering).
+
+ex03: Data aggregation and grouping (GROUP BY, pivot tables).
+
+ex04: A/B Testing – Full hypothesis testing pipeline from data preparation to conclusion.
+
+visual/
+ex01: Foundation plots with Matplotlib (line, bar, scatter, histogram).
+
+ex02: Statistical and advanced plots with Seaborn (heatmaps, pairplots, distribution plots).
+
+ex03: Creating multi-plot dashboards and customizing aesthetics for storytelling
+
+**Note**: This is a learning project. The examples are designed to be clear and educational, illustrating common data analysis workflows.
