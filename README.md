@@ -15,18 +15,26 @@
 *   **Jupyter-Based**: All exercises are in interactive notebooks for easy exploration and learning.
 
 ## 📁 Project Structure
-data_analysis_visual/
-│
-├── sql_pandas/ # Database & Data Wrangling
-│ ├── ex01_basic_queries.ipynb
-│ ├── ex02_data_cleaning.ipynb
-│ ├── ex03_aggregations.ipynb
-│ └── ex04_ab_testing.ipynb # Complete A/B test implementation
-│
-└── visual/ # Data Visualization
-├── ex01_basic_plots.ipynb
-├── ex02_seaborn_plots.ipynb
-└── ex03_advanced_viz.ipynb
+data_analysis_visual/  
+│  
+├── sql_pandas/ # Database & Data Wrangling  
+│ ├── data  
+│ │  └── checking-logs.sqlite  
+│ ├── ex00_first_select.ipynb  
+│ ├── ex01_subquery.ipynb  
+│ ├── ex02_joins.ipynb 
+│ ├── ex03_aggs.ipynb  
+│ └── ex04_ab-test.ipynb # Complete A/B test implementation  
+│  
+└── visual/ # Data Visualization  
+    ├── data  
+    │  ├── ab-test.csv
+    │  └── checking-logs.sqlite  
+    ├── ex01_first_select.ipynb  
+    ├── ex02_subquery.ipynb  
+    ├── ex03_joins.ipynb 
+    ├── ex04_aggs.ipynb  
+    └── ex05_ab-test.ipynb # Complete A/B test implementation  
 
 ## 🛠️ Tech Stack
 
@@ -37,21 +45,22 @@ data_analysis_visual/
 *   **Environment**: Jupyter Notebook
 
 
-📘 Exercise Overview
-sql_pandas/
-ex01: Basic SQL queries (SELECT, WHERE, JOIN).
+## 📘 Exercise Overview
 
-ex02: Data preprocessing with Pandas (handling missing values, filtering).
+*   **sql_pandas/**
+        ex01: Basic SQL queries (SELECT, WHERE, JOIN).
 
-ex03: Data aggregation and grouping (GROUP BY, pivot tables).
+        ex02: Data preprocessing with Pandas (handling missing values, filtering).
 
-ex04: A/B Testing – Full hypothesis testing pipeline from data preparation to conclusion.
+        ex03: Data aggregation and grouping (GROUP BY, pivot tables).
 
-visual/
-ex01: Foundation plots with Matplotlib (line, bar, scatter, histogram).
+        ex04: A/B Testing – Full hypothesis testing pipeline from data preparation to conclusion.
 
-ex02: Statistical and advanced plots with Seaborn (heatmaps, pairplots, distribution plots).
+*   **visual/**
+        ex01: Foundation plots with Matplotlib (line, bar, scatter, histogram).
 
-ex03: Creating multi-plot dashboards and customizing aesthetics for storytelling
+        ex02: Statistical and advanced plots with Seaborn (heatmaps, pairplots, distribution plots).
+
+        ex03: Creating multi-plot dashboards and customizing aesthetics for storytelling
 
 **Note**: This is a learning project. The examples are designed to be clear and educational, illustrating common data analysis workflows.
